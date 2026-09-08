@@ -159,7 +159,7 @@ p:last-child{margin-bottom:0}
 .grey .card{box-shadow:0 0 0 1px var(--grey-2)}
 .dark .card{background:var(--black-2);box-shadow:none}
 .card-row{
-  display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.5fr) minmax(0,.6fr);
+  display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.6fr);
   gap:1.5rem;align-items:center;padding:1.15rem clamp(1.3rem,2.2vw,1.9rem);
   border-top:1px solid var(--line);
 }
@@ -172,7 +172,6 @@ a.card-row:hover{background:var(--grey)}
 .card-row .tag{display:block;font-size:.78rem;color:var(--soft);margin-top:.25rem}
 .card-row .desc{margin:0;color:var(--body);font-size:.96rem}
 .dark .card-row .desc{color:#98A4B4}
-.card-row .who{font-size:.86rem;color:var(--soft);text-align:right}
 .badge{
   display:inline-block;font-size:.66rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;
   color:var(--navy);background:rgba(30,58,110,.09);padding:.16rem .5rem;border-radius:999px;margin-left:.5rem;
@@ -287,7 +286,6 @@ tbody tr:hover td{background:rgba(30,58,110,.03)}
   .t-3{grid-template-columns:1fr}
   .detail{grid-template-columns:1fr;gap:1.5rem}
   .card-row{grid-template-columns:1fr;gap:.6rem;align-items:start}
-  .card-row .who{text-align:left}
   .cta-info{grid-template-columns:1fr}
   .foot-grid{grid-template-columns:1fr 1fr}
   .foot .bl{grid-column:1 / -1}
